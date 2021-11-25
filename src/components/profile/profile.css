@@ -1,0 +1,38 @@
+
+.profile-card{
+    margin: 1rem 20%;
+    padding: 1rem;
+    max-width: 576px;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 9px 0 #c7a6a6;
+    border-radius: 1rem;
+}
+.profile-card img{
+    width: 100px;
+    height: 100px;
+}
+.profile-card p{
+    word-break: break-word;
+    font-family: 'STIX Two Text', serif;
+}
+.social-icons{
+    margin: 2rem .5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.social-icons i {
+    font-size: 1.75rem;
+    cursor: pointer;
+}
+.linkedin{
+    color: #0e76a8;
+}
+.twitter{
+    color: #1DA1F2;
+}
+.facebook{
+    color: #2953a7;
+}
+.whatsapp{
+    color: #4FCE5D;
+}

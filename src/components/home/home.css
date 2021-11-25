@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+}
+.blogicon{
+    color: green;
+}
+.settingsicon{
+    color: darkblue;
+}
+.homeicon{
+    color: orangered;
+}
+.profile{
+    color: maroon;
+}
+i{
+    font-size: 1.25rem;
+}
+.navitems{
+    margin: auto;
+}
+.navitems li{
+    margin: 0.5rem .75rem;
+    font-size: 15px;
+    font-weight: 600;
+}
+ul{
+    list-style: none;
+}
+.sidebar{
+    margin: .5rem;
+    font-family: 'Inconsolata', sans-serif;
+    box-sizing: border-box;
+    border-right: 1px solid;
+}
+.sidebar ul{
+    padding: 1.2rem;
+}
+.sidebar li{
+    margin: 1rem 0;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Inconsolata', sans-serif;
+}
+.plus{
+    font-size: 1rem;
+    color: forestgreen;
+    margin-left: .5rem;
+}
+.circled{ 
+    font-size: 1rem;
+    color: forestgreen;
+    margin-left: .5rem;
+}
+.blogcards{
+    display: flex;
+    margin: .75rem;
+    flex-wrap: wrap;
+	flex-flow: wrap;
+    justify-content: space-evenly;
+    max-height: 400px;
+}
+.card{
+    width: 25%;
+    margin: .5rem;
+    box-sizing: content-box;
+    border: 1px solid #d1d1f5;
+	border-radius: 15px;
+	text-align: center;
+	padding: 1rem;
+	outline: none;
+	transition: .75s;
+}
+.card p{
+    font-family: 'Nanum Gothic', sans-serif;;
+}
+.card:hover{
+    box-shadow: 0 0 4px 0 #5453eb;
+	border-color: white;
+}
+.card Button{
+    width: 6rem;
+    font-size: .75rem;
+    background-color: #2336eb;
+}
+.singlepost{
+    box-sizing: border-box;
+}
+.singlepost h6{
+    font-family: 'Andada Pro', serif;
+    font-size: 1.25rem;
+}
+.singlepost p{
+    margin: 1rem;
+    padding: .5rem;
+    font-family: 'STIX Two Text', serif;
+    font-size: 1.25rem;
+}
+.newpost{
+    display: block;
+}
+.newpost Button{
+    border-radius: 50%;
+    width: 3.6rem;
+    height: 3.6rem;
+}
+.newpost i{
+    font-size: 1.5rem;
+}
+.writepost{
+    box-sizing: border-box;
+    width: 60vw;
+}
+.writepost .post-title{
+    width: 80%;
+    font-family: 'STIX Two Text', serif;
+}
+.writepost .post-area{
+    width: 100%;
+    border: none;
+    font-size: 1.2rem;
+    font-family: 'Libre Caslon Text', serif;
+}
+.writepost .post-area:focus{
+    outline: none;
+}
+.writepost .heading{
+    justify-content: space-between;
+}
+.writepost .heading Button{
+    font-size: 1.25rem;
+    margin-right: 1.2rem;
+}
+.writepost .heading i{
+    font-size: 1.5rem;
+}
